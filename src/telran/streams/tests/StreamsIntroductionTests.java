@@ -45,5 +45,18 @@ class StreamsIntroductionTests {
 		assertTrue(Arrays.stream(ar).allMatch(n -> n >= 10 && n < 12));
 		assertEquals(21, sumDistinct(ar));
 	}
+	@Test
+	void getMinMaxAvgTest() {
+		
+	}
+	@Test
+	void displayShuffleTest() {
+		int ar[] = {1, 2, 3, 4, 5, 6, 7};
+		for(int i = 0; i < 10; i++) {
+			System.out.println();
+			displayShuffle(ar);
+			
+		}
+	}
 
 }
